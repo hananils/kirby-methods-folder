@@ -1,0 +1,15 @@
+{
+    "name": "getkirby/pluginkit",
+    "description": "Kirby Missing Link",
+    "type": "kirby-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "hana+nils · Büro für Gestaltung",
+            "email": "buero@hananils.de"
+        }
+    ],
+    "require": {
+        "getkirby/composer-installer": "^1.1"
+    }
+}
