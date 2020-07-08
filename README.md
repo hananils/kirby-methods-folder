@@ -1,6 +1,6 @@
 # Kirby Missing Link
 
-This Kirby 3 plugin
+Kirby 3 automatically registers local collections, controllers or models using folder conventions like `site/collections`, `site/controllers` or `site/models`. It does not for custom methods which have to be provided using plugins. This plugin offers the missing link and allows for storing custom methods in `site/methods`.
 
 ## Installation
 
@@ -51,7 +51,8 @@ return [
 
 ```
 
-Please see the official docs for more information about the different method types: <https://getkirby.com/docs/reference/plugins/extensions>
+Please see the official docs for more information about the different method types:
+<https://getkirby.com/docs/reference/plugins/extensions>
 
 ## License
 
