@@ -54,6 +54,18 @@ return [
 Please see the official docs for more information about the different method types:
 <https://getkirby.com/docs/reference/plugins/extensions>
 
+### Helpers
+
+You can also create a `helpers.php` file inside the `methods` folder where you can put custom methods you'd like to have available universally:
+
+```
+site
+ └ methods
+   └ helpers.php
+```
+
+This file will automatically be included and may contain as many global helper functions as needed.
+
 ## License
 
 MIT
