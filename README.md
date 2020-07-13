@@ -6,18 +6,18 @@ Kirby 3 automatically registers local collections, controllers or models using f
 
 ### Download
 
-Download and copy this repository to `/site/plugins/missing-link`.
+Download and copy this repository to `/site/plugins/methods-folder`.
 
 ### Git submodule
 
 ```
-git submodule add https://github.com/hananils/kirby-missing-link.git site/plugins/missing-link
+git submodule add https://github.com/hananils/kirby-methods-folder.git site/plugins/methods-folder
 ```
 
 ### Composer
 
 ```
-composer require hananils/kirby-missing-link
+composer require hananils/kirby-methods-folder
 ```
 
 ## Setup
