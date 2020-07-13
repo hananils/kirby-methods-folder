@@ -1,4 +1,4 @@
-# Kirby Method Folder
+# Kirby Methods Folder
 
 Kirby 3 automatically registers local collections, controllers or models using folder conventions like `site/collections`, `site/controllers` or `site/models`. It does not for custom methods which have to be provided using plugins. This plugin offers the missing link and allows for providing custom methods in `site/methods`.
 
