@@ -1,6 +1,6 @@
 {
-    "name": "hananils/missing-link",
-    "description": "Kirby Missing Link",
+    "name": "hananils/methods-folder",
+    "description": "Kirby Methods Folder",
     "type": "kirby-plugin",
     "license": "MIT",
     "authors": [
