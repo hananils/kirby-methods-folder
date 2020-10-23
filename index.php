@@ -2,8 +2,11 @@
 
 F::loadOnce(kirby()->root('site') . '/helpers.php');
 
-Kirby::plugin('hananils/missing-link', [
-    'collectionMethods' => F::load(kirby()->root('site') . '/methods/collection.php', []),
+Kirby::plugin('hananils/method-folder', [
+    'collectionMethods' => F::load(
+        kirby()->root('site') . '/methods/collection.php',
+        []
+    ),
     'fieldMethods' => F::load(kirby()->root('site') . '/methods/field.php', []),
     'fileMethods' => F::load(kirby()->root('site') . '/methods/file.php', []),
     'filesMethods' => F::load(kirby()->root('site') . '/methods/files.php', []),
