@@ -1,6 +1,6 @@
-# Kirby Methods Folder
+![Kirby Methods Folder](.github/title.png)
 
-Kirby 3 automatically registers local collections, controllers or models using folder conventions like `site/collections`, `site/controllers` or `site/models`. It does not for custom methods which have to be provided using plugins. This plugin offers the missing link and allows for providing custom methods in `site/methods`.
+**Methods Folder** is a plugin for [Kirby 3](https://getkirby.com) to automatically register local methods provided in the folder `site/methods` just like Kirby accepts local collections, controllers or models without the need of writing a dedicated plugin.
 
 ## Installation
 
@@ -20,7 +20,7 @@ git submodule add https://github.com/hananils/kirby-methods-folder.git site/plug
 composer require hananils/kirby-methods-folder
 ```
 
-## Setup
+# Creating custom methods
 
 After installing this plugin, you can create custom methods in `site/methods` by creating separate files for the different method types:
 
@@ -44,17 +44,15 @@ Those files have to return an array:
 <?php
 
 return [
-    'my-method' => function() {
+    'my-method' => function () {
         // your method code here
     }
 ];
-
 ```
 
-Please see the official docs for more information about the different method types:
-<https://getkirby.com/docs/reference/plugins/extensions>
+Please see the official docs for more information about the different method types: <https://getkirby.com/docs/reference/plugins/extensions>
 
-### Helpers
+# Creating custom helpers
 
 You can also create a `helpers.php` file inside the `methods` folder where you can put custom methods you'd like to have available universally:
 
@@ -66,10 +64,7 @@ site
 
 This file will automatically be included and may contain as many global helper functions as needed.
 
-## License
+# License
 
-MIT
-
-## Credits
-
-- [hana+nils · Büro für Gestaltung](https://hananils.de)
+This plugin is provided freely under the [MIT license](LICENSE.md) by [hana+nils · Büro für Gestaltung](https://hananils.de).  
+We create visual designs for digital and analog media.
