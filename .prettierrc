@@ -4,9 +4,9 @@
     "singleQuote": true,
     "trailingComma": "none",
     "bracketSpacing": true,
-    "bracketSameLine": false,
-    "phpVersion": "7.4",
+    "bracketSameLine": true,
+    "phpVersion": "8.1",
     "trailingCommaPHP": false,
-    "htmlWhitespaceSensitivity": "css",
-    "proseWrap": "never"
+    "cssDeclarationSorter": "smacss",
+    "plugins": ["@prettier/plugin-php", "prettier-plugin-css-order"]
 }
