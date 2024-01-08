@@ -1,5 +1,8 @@
 <?php
 
+use Kirby\Cms\App as Kirby;
+use Kirby\Filesystem\F;
+
 F::loadOnce(kirby()->root('site') . '/helpers.php');
 
 Kirby::plugin('hananils/method-folder', [
@@ -8,6 +11,23 @@ Kirby::plugin('hananils/method-folder', [
         []
     ),
     'fieldMethods' => F::load(kirby()->root('site') . '/methods/field.php', []),
+    'blockMethods' => F::load(kirby()->root('site') . '/methods/block.php', []),
+    'blocksMethods' => F::load(
+        kirby()->root('site') . '/methods/blocks.php',
+        []
+    ),
+    'layoutMethods' => F::load(
+        kirby()->root('site') . '/methods/layout.php',
+        []
+    ),
+    'layoutsMethods' => F::load(
+        kirby()->root('site') . '/methods/layouts.php',
+        []
+    ),
+    'layoutColumnMethods' => F::load(
+        kirby()->root('site') . '/methods/layout-column.php',
+        []
+    ),
     'fileMethods' => F::load(kirby()->root('site') . '/methods/file.php', []),
     'filesMethods' => F::load(kirby()->root('site') . '/methods/files.php', []),
     'pageMethods' => F::load(kirby()->root('site') . '/methods/page.php', []),
