@@ -29,6 +29,11 @@ site
 └ methods
   └ collection.php
   └ field.php
+  └ block.php
+  └ blocks.php
+  └ layout.php
+  └ layouts.php
+  └ layout-column.php
   └ file.php
   └ files.php
   └ page.php
@@ -54,12 +59,11 @@ Please see the official docs for more information about the different method typ
 
 # Creating custom helpers
 
-You can also create a `helpers.php` file inside the `methods` folder where you can put custom methods you'd like to have available universally:
+You can also create a `helpers.php` file inside the `site` folder where you can put custom methods you'd like to have available universally:
 
 ```
 site
- └ methods
-   └ helpers.php
+ └ helpers.php
 ```
 
 This file will automatically be included and may contain as many global helper functions as needed.
