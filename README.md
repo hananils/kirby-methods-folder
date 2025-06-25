@@ -1,6 +1,6 @@
 ![Kirby Methods Folder](.github/title.png)
 
-**Methods Folder** is a plugin for [Kirby 3](https://getkirby.com) to automatically register local methods provided in the folder `site/methods` just like Kirby accepts local collections, controllers or models without the need of writing a dedicated plugin.
+**Methods Folder** is a plugin for [Kirby](https://getkirby.com) to automatically register local methods provided in the folder `site/methods` just like Kirby accepts local collections, controllers or models without the need of writing a dedicated plugin.
 
 ## Installation
 

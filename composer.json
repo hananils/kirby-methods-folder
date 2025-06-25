@@ -1,16 +1,27 @@
 {
     "name": "hananils/kirby-methods-folder",
-    "description": "Kirby Methods Folder",
-    "type": "kirby-plugin",
+    "description": "Unlike collection and controllers, Kirby only allows for the creation of custom methods via plugins. Methods Folder bridges this gap by automatically registering methods located in site/methods. In additon to all methods types, it also provides a way to register helper functions via a dedicated file.",
     "license": "MIT",
-    "version": "2.0.0",
+    "type": "kirby-plugin",
+    "version": "3.0.0",
     "authors": [
         {
             "name": "hana+nils · Büro für Gestaltung",
             "email": "buero@hananils.de"
         }
     ],
+    "homepage": "https://kirby.hananils.de/plugins/methods-folder",
     "require": {
-        "getkirby/composer-installer": "^1.1"
+        "php": "^8.2"
+    },
+    "require-dev": {
+        "ergebnis/composer-normalize": "^2.47",
+        "rector/rector": "^2.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "ergebnis/composer-normalize": true
+        },
+        "sort-packages": true
     }
 }

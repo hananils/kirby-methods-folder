@@ -1,12 +1,21 @@
 {
+    "bracketSameLine": false,
+    "bracketSpacing": true,
+    "htmlWhitespaceSensitivity": "css",
+    "phpVersion": "8.2",
     "printWidth": 80,
+    "proseWrap": "never",
     "semi": true,
     "singleQuote": true,
     "trailingComma": "none",
-    "bracketSpacing": true,
-    "bracketSameLine": true,
-    "phpVersion": "8.1",
     "trailingCommaPHP": false,
-    "cssDeclarationSorter": "smacss",
-    "plugins": ["@prettier/plugin-php", "prettier-plugin-css-order"]
+    "plugins": ["@prettier/plugin-php", "prettier-plugin-css-order"],
+    "overrides": [
+        {
+            "files": "LICENSE.md",
+            "options": {
+                "proseWrap": "always"
+            }
+        }
+    ]
 }
