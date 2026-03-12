@@ -14,14 +14,7 @@
     "require": {
         "php": "^8.2"
     },
-    "require-dev": {
-        "ergebnis/composer-normalize": "^2.47",
-        "rector/rector": "^2.0"
-    },
     "config": {
-        "allow-plugins": {
-            "ergebnis/composer-normalize": true
-        },
         "sort-packages": true
     }
 }
