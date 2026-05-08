@@ -12,6 +12,7 @@
     ],
     "homepage": "https://kirby.hananils.de/plugins/methods-folder",
     "require": {
+        "getkirby/composer-installer": "^1.2",
         "php": "^8.2"
     },
     "config": {
