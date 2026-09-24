@@ -3,7 +3,7 @@
     "description": "Unlike collection and controllers, Kirby only allows for the creation of custom methods via plugins. Methods Folder bridges this gap by automatically registering methods located in site/methods. In additon to all methods types, it also provides a way to register helper functions via a dedicated file.",
     "license": "MIT",
     "type": "kirby-plugin",
-    "version": "3.0.0",
+    "version": "3.1.0",
     "authors": [
         {
             "name": "hana+nils · Büro für Gestaltung",
