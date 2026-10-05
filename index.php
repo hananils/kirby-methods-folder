@@ -6,7 +6,7 @@ use Kirby\Filesystem\F;
 $root = kirby()->root('site');
 F::loadOnce($root . '/helpers.php');
 
-Kirby::plugin('hananils/method-folder', [
+Kirby::plugin('hananils/methods-folder', [
     /**
      * @ignore
      */
