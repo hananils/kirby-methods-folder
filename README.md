@@ -88,23 +88,6 @@ composer require hananils/kirby-methods-folder
 
 Where possible, files contain inline annotations. For extended documentation, please visit our dedicated plugin site at [kirby.hananils.de/​plugins/​methods-folder](https://kirby.hananils.de/plugins/methods-folder).
 
-### Reference
-
-- [Site Methods](https://kirby.hananils.de/plugins/methods-folder/site-methods)
-- [Pages Methods](https://kirby.hananils.de/plugins/methods-folder/pages-methods)
-- [Page Methods](https://kirby.hananils.de/plugins/methods-folder/page-methods)
-- [Field Methods](https://kirby.hananils.de/plugins/methods-folder/field-methods)
-- [Layouts Methods](https://kirby.hananils.de/plugins/methods-folder/layouts-methods)
-- [Layout Methods](https://kirby.hananils.de/plugins/methods-folder/layout-methods)
-- [Layout Column Methods](https://kirby.hananils.de/plugins/methods-folder/layout-column-methods)
-- [Blocks Methods](https://kirby.hananils.de/plugins/methods-folder/blocks-methods)
-- [Block Methods](https://kirby.hananils.de/plugins/methods-folder/block-methods)
-- [Files Methods](https://kirby.hananils.de/plugins/methods-folder/files-methods)
-- [File Methods](https://kirby.hananils.de/plugins/methods-folder/file-methods)
-- [Users Methods](https://kirby.hananils.de/plugins/methods-folder/users-methods)
-- [User Methods](https://kirby.hananils.de/plugins/methods-folder/user-methods)
-- [Collection Methods](https://kirby.hananils.de/plugins/methods-folder/collection-methods)
-
 ## License
 
 This plugin is provided freely under the [MIT license](https://kirby.hananils.de/plugins/methods-folder/license) by [hana+nils · Büro für Gestaltung](https://kirby.hananils.de). We create visual designs for digital and analog media.
